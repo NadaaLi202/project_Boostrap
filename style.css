@@ -1,0 +1,53 @@
+.services .card-body i{
+font-size: 50px;
+}
+
+.team .card-body i{
+    font-size: 20px;
+    }
+
+
+.portfolio .card{
+
+    box-shadow: 15px 15px 40px rgba(0, 0,0,0.15);
+}
+
+
+.team .card{
+
+    box-shadow: 15px 15px 40px rgba(0, 0,0,0.15);
+}
+
+.section-header .title-margin-top{
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-item{
+        bottom: 125px;
+    }
+    .about-text{
+
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+    .carousel-item{
+        bottom: 379px;
+    }
+    .card{
+
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%
+    }
+}

@@ -1,0 +1,211 @@
+
+.header{
+  height: 80px;
+  width: 70%;
+  background-color: #7491ab;
+  border-radius: 3px;
+  margin: 90px 0px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header .logo{
+
+  font-size: 30px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  padding: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+}
+
+.navbar a i {
+  margin-right: 18px;
+  color: #7491ab;
+  cursor: pointer;
+}
+
+.navbar a i:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.btn1,
+.btn2 {
+  padding: 5px 10px;
+  background-color: #7491ab;
+  color: #000;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 12px;
+}
+
+.form-group button[type="submit"] {
+  background-color: #7491ab;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 800px;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #7491ab;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .header .logo {
+    font-size: 24px;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .navbar {
+    padding: 8px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .navbar a i {
+    margin-right: 12px;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 4px 8px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .form-group button[type="submit"] {
+    margin-left: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    height: 60px;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .header .logo {
+    font-size: 20px;
+  }
+
+  .main {
+    padding: 15px;
+  }
+
+  .navbar {
+    padding: 6px;
+  }
+
+  .navbar a {
+    font-size: 12px;
+  }
+
+  .navbar a i {
+    margin-right: 8px;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="number"],
+  .form-group input[type="password"] {
+    padding: 8px;
+  }
+
+  .form-group button[type="submit"] {
+    padding: 8px 15px;
+  }
+}
+
+
